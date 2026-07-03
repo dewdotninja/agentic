@@ -16,9 +16,9 @@ CMD_TOPIC = "@msg/cmd"
 rcvd_data = ""
 rcvd_msg = ""
 
-Client_ID = "fe9f7275-e33e-41b5-b4f6-fd05b05d69bb"
-User = "jRqFiKznofYZNcJeXmXusBHVtNUJcZC5"
-Password = "FDiSEEt6Gp8zTzZqhdXgSzv5BhUtudZE"
+Client_ID = ""
+User = ""
+Password = ""
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2,
                          client_id=Client_ID,
                          transport='tcp',
