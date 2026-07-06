@@ -1,3 +1,8 @@
+# server.py
+# Dew.ninja  July 2026
+# A custom MCP server for simple IoT device using ESP32 and DHT22 sensor
+
+
 import paho.mqtt.client as mqtt
 from fastmcp import FastMCP
 from typing import Annotated
