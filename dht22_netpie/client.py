@@ -1,3 +1,7 @@
+# client.py
+# Dew.Ninja  July 2026
+# Simple client to test the DHT22_NETPIE MCP server 
+
 from fastmcp import FastMCP
 import asyncio
 from fastmcp import Client
